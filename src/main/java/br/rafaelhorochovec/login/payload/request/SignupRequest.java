@@ -2,7 +2,7 @@ package br.rafaelhorochovec.login.payload.request;
 
 import java.util.Set;
 
-import javax.validation.constraints.*;
+import jakarta.validation.constraints.*;
  
 public class SignupRequest {
 	
@@ -45,7 +45,7 @@ public class SignupRequest {
         this.password = password;
     }
     
-    public Set<String> getRoles() {
+    public Set<String> getRole() {
       return this.roles;
     }
     
